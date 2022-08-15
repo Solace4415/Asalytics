@@ -1,0 +1,58 @@
+.algorand {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #b7becc;
+  padding: 20px;
+  width: 22%;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.algorand-img {
+  width: 30px;
+  height: 57.39px;
+}
+
+.algorand-p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin: 15px 0;
+}
+
+.algorand-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  background: #6fd791;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  width: 68px;
+  height: 31px;
+  line-height: 15px;
+  color: #ffffff;
+  border: none;
+}
+
+.algorand-button.red {
+  padding: 8px;
+  width: 82px;
+  height: 31px;
+  background: #bc3131;
+}
+
+@media screen and (max-width: 990px) {
+  .algorand {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .algorand {
+    width: 100%;
+  }
+}
